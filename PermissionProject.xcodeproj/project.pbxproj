@@ -24,6 +24,7 @@
 		A7AFF23426FF20C20051A6F0 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23326FF20C20051A6F0 /* ActionButtonType.swift */; };
 		A7AFF23626FF20C90051A6F0 /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23526FF20C90051A6F0 /* ActionButtonTheme.swift */; };
 		A7AFF23826FF233D0051A6F0 /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23726FF233D0051A6F0 /* GenericBaseView.swift */; };
+		A7AFF23D26FF34480051A6F0 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23C26FF34480051A6F0 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		A7AFF23326FF20C20051A6F0 /* ActionButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
 		A7AFF23526FF20C90051A6F0 /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
 		A7AFF23726FF233D0051A6F0 /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
+		A7AFF23C26FF34480051A6F0 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 		A7AFF22C26FF18690051A6F0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A7AFF23B26FF342E0051A6F0 /* Extensions */,
 				A7AFF23926FF33770051A6F0 /* FontManagers */,
 			);
 			path = Utils;
@@ -189,6 +192,14 @@
 				A7AFF22D26FF18780051A6F0 /* FontManager.swift */,
 			);
 			path = FontManagers;
+			sourceTree = "<group>";
+		};
+		A7AFF23B26FF342E0051A6F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFF23C26FF34480051A6F0 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +339,7 @@
 				A7AFF23426FF20C20051A6F0 /* ActionButtonType.swift in Sources */,
 				A7AFF22B26FF16430051A6F0 /* BaseView.swift in Sources */,
 				A7AFF23826FF233D0051A6F0 /* GenericBaseView.swift in Sources */,
+				A7AFF23D26FF34480051A6F0 /* UIView+Extensions.swift in Sources */,
 				A7AFF1F726FF02F00051A6F0 /* SceneDelegate.swift in Sources */,
 				A7AFF22E26FF18780051A6F0 /* FontManager.swift in Sources */,
 				A7AFF23226FF1F160051A6F0 /* ActionButtonData.swift in Sources */,
