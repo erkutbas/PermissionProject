@@ -12,7 +12,7 @@ typealias BooleanCompletionBlock = (Bool) -> Void
 class ViewController: UIViewController {
     
     private var actionButton: ActionButton!
-    private var actionButton2: ActionButton!
+    private var actionModule: ActionModule!
 
     @IBAction func cameraButtonTapped(_ sender: Any) {
         print("Camera Tapped")
@@ -26,13 +26,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         addActionButton()
+        addActionModule()
+        setupActionModuleData()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             let actionButtonData = ActionButtonData(text: "OK", buttonType: .filled(.smooth)).setActionButtonListener(by: self.actionButtonHandler)
             self.actionButton.setData(by: actionButtonData)
         }
-        
-        test(completion: testHandler)
+//
+//        test(completion: testHandler)
         
     }
     
@@ -62,6 +64,33 @@ class ViewController: UIViewController {
         
         ])
         
+    }
+    
+    private func addActionModule() {
+        actionModule = ActionModule()
+        actionModule.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(actionModule)
+        
+        NSLayoutConstraint.activate([
+        
+            actionModule.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            actionModule.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 200),
+        
+        ])
+        
+    }
+    
+    private func setupActionModuleData() {
+        let negative = ActionButtonData(text: "Not Now", buttonType: .outlined(.smooth)).setActionButtonListener {
+            print("Negative Fired")
+        }
+        
+        let positive = ActionButtonData(text: "OK", buttonType: .filled(.smooth)).setActionButtonListener {
+            print("Positive Fired")
+        }
+        
+        actionModule.setData(by: ActionModuleData(negativeButtonData: negative, positiveButtonData: positive))
     }
     
     func test(completion: @escaping (Bool) -> Void) {
