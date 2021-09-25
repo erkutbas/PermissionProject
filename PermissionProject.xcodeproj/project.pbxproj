@@ -16,6 +16,14 @@
 		A7AFF20C26FF02F10051A6F0 /* PermissionProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF20B26FF02F10051A6F0 /* PermissionProjectTests.swift */; };
 		A7AFF21626FF02F10051A6F0 /* PermissionProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF21526FF02F10051A6F0 /* PermissionProjectUITests.swift */; };
 		A7AFF21826FF02F10051A6F0 /* PermissionProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF21726FF02F10051A6F0 /* PermissionProjectUITestsLaunchTests.swift */; };
+		A7AFF22826FF10540051A6F0 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF22726FF10540051A6F0 /* ActionButton.swift */; };
+		A7AFF22B26FF16430051A6F0 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF22A26FF16430051A6F0 /* BaseView.swift */; };
+		A7AFF22E26FF18780051A6F0 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF22D26FF18780051A6F0 /* FontManager.swift */; };
+		A7AFF23026FF18820051A6F0 /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF22F26FF18820051A6F0 /* GenericValueProtocol.swift */; };
+		A7AFF23226FF1F160051A6F0 /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23126FF1F160051A6F0 /* ActionButtonData.swift */; };
+		A7AFF23426FF20C20051A6F0 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23326FF20C20051A6F0 /* ActionButtonType.swift */; };
+		A7AFF23626FF20C90051A6F0 /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23526FF20C90051A6F0 /* ActionButtonTheme.swift */; };
+		A7AFF23826FF233D0051A6F0 /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF23726FF233D0051A6F0 /* GenericBaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		A7AFF21126FF02F10051A6F0 /* PermissionProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PermissionProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AFF21526FF02F10051A6F0 /* PermissionProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionProjectUITests.swift; sourceTree = "<group>"; };
 		A7AFF21726FF02F10051A6F0 /* PermissionProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7AFF22726FF10540051A6F0 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		A7AFF22A26FF16430051A6F0 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A7AFF22D26FF18780051A6F0 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		A7AFF22F26FF18820051A6F0 /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		A7AFF23126FF1F160051A6F0 /* ActionButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
+		A7AFF23326FF20C20051A6F0 /* ActionButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		A7AFF23526FF20C90051A6F0 /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		A7AFF23726FF233D0051A6F0 /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,9 @@
 		A7AFF1F326FF02F00051A6F0 /* PermissionProject */ = {
 			isa = PBXGroup;
 			children = (
+				A7AFF22C26FF18690051A6F0 /* Utils */,
+				A7AFF22926FF16360051A6F0 /* BaseComponent */,
+				A7AFF22526FF10220051A6F0 /* Components */,
 				A7AFF1F426FF02F00051A6F0 /* AppDelegate.swift */,
 				A7AFF1F626FF02F00051A6F0 /* SceneDelegate.swift */,
 				A7AFF1F826FF02F00051A6F0 /* ViewController.swift */,
@@ -125,6 +144,51 @@
 				A7AFF21726FF02F10051A6F0 /* PermissionProjectUITestsLaunchTests.swift */,
 			);
 			path = PermissionProjectUITests;
+			sourceTree = "<group>";
+		};
+		A7AFF22526FF10220051A6F0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFF22626FF102B0051A6F0 /* ActionButtonComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A7AFF22626FF102B0051A6F0 /* ActionButtonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFF22726FF10540051A6F0 /* ActionButton.swift */,
+				A7AFF23126FF1F160051A6F0 /* ActionButtonData.swift */,
+				A7AFF23326FF20C20051A6F0 /* ActionButtonType.swift */,
+				A7AFF23526FF20C90051A6F0 /* ActionButtonTheme.swift */,
+			);
+			path = ActionButtonComponent;
+			sourceTree = "<group>";
+		};
+		A7AFF22926FF16360051A6F0 /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFF22F26FF18820051A6F0 /* GenericValueProtocol.swift */,
+				A7AFF22A26FF16430051A6F0 /* BaseView.swift */,
+				A7AFF23726FF233D0051A6F0 /* GenericBaseView.swift */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		A7AFF22C26FF18690051A6F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFF23926FF33770051A6F0 /* FontManagers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A7AFF23926FF33770051A6F0 /* FontManagers */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFF22D26FF18780051A6F0 /* FontManager.swift */,
+			);
+			path = FontManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +323,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AFF1F926FF02F00051A6F0 /* ViewController.swift in Sources */,
+				A7AFF23626FF20C90051A6F0 /* ActionButtonTheme.swift in Sources */,
 				A7AFF1F526FF02F00051A6F0 /* AppDelegate.swift in Sources */,
+				A7AFF23426FF20C20051A6F0 /* ActionButtonType.swift in Sources */,
+				A7AFF22B26FF16430051A6F0 /* BaseView.swift in Sources */,
+				A7AFF23826FF233D0051A6F0 /* GenericBaseView.swift in Sources */,
 				A7AFF1F726FF02F00051A6F0 /* SceneDelegate.swift in Sources */,
+				A7AFF22E26FF18780051A6F0 /* FontManager.swift in Sources */,
+				A7AFF23226FF1F160051A6F0 /* ActionButtonData.swift in Sources */,
+				A7AFF22826FF10540051A6F0 /* ActionButton.swift in Sources */,
+				A7AFF23026FF18820051A6F0 /* GenericValueProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
