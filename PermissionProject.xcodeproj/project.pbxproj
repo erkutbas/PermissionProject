@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7161DAF2700554700ED129A /* LabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DAE2700554700ED129A /* LabelPackComponent.swift */; };
+		A7161DB12700556200ED129A /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DB02700556200ED129A /* LabelPackComponentData.swift */; };
+		A7161DB42700599F00ED129A /* PermissionMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DB32700599F00ED129A /* PermissionMainView.swift */; };
+		A7161DB6270059E100ED129A /* PermissionMainViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DB5270059E100ED129A /* PermissionMainViewData.swift */; };
+		A7161DBB2700637D00ED129A /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DBA2700637D00ED129A /* PermissionViewController.swift */; };
+		A7161DBF270064D400ED129A /* PermissionImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DBE270064D400ED129A /* PermissionImages.swift */; };
+		A7161DC32700741700ED129A /* PermissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DC22700741700ED129A /* PermissionViewModel.swift */; };
+		A7161DC5270074E300ED129A /* PermissionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DC4270074E300ED129A /* PermissionManagerProtocol.swift */; };
+		A7161DC72700765F00ED129A /* PermissionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DC62700765F00ED129A /* PermissionViewBuilder.swift */; };
+		A7161DCA2700773F00ED129A /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DC92700773F00ED129A /* CameraPermissionManager.swift */; };
+		A7161DCD270077F600ED129A /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DCC270077F600ED129A /* PhotosPermissionManager.swift */; };
+		A7161DD02700786F00ED129A /* PermissionViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DCF2700786F00ED129A /* PermissionViewFactory.swift */; };
+		A7161DD3270085B500ED129A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7161DD5270085B500ED129A /* Localizable.strings */; };
+		A7161DD8270086A000ED129A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DD7270086A000ED129A /* String+Extension.swift */; };
+		A7161DDB2700873400ED129A /* PermissionLocalizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DDA2700873400ED129A /* PermissionLocalizables.swift */; };
+		A7161DDD2700959800ED129A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7161DDC2700959800ED129A /* BaseViewController.swift */; };
 		A7AFF1F526FF02F00051A6F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF1F426FF02F00051A6F0 /* AppDelegate.swift */; };
 		A7AFF1F726FF02F00051A6F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF1F626FF02F00051A6F0 /* SceneDelegate.swift */; };
 		A7AFF1F926FF02F00051A6F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AFF1F826FF02F00051A6F0 /* ViewController.swift */; };
@@ -47,6 +63,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7161DAE2700554700ED129A /* LabelPackComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponent.swift; sourceTree = "<group>"; };
+		A7161DB02700556200ED129A /* LabelPackComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
+		A7161DB32700599F00ED129A /* PermissionMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainView.swift; sourceTree = "<group>"; };
+		A7161DB5270059E100ED129A /* PermissionMainViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainViewData.swift; sourceTree = "<group>"; };
+		A7161DBA2700637D00ED129A /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		A7161DBE270064D400ED129A /* PermissionImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionImages.swift; sourceTree = "<group>"; };
+		A7161DC22700741700ED129A /* PermissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewModel.swift; sourceTree = "<group>"; };
+		A7161DC4270074E300ED129A /* PermissionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManagerProtocol.swift; sourceTree = "<group>"; };
+		A7161DC62700765F00ED129A /* PermissionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewBuilder.swift; sourceTree = "<group>"; };
+		A7161DC92700773F00ED129A /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
+		A7161DCC270077F600ED129A /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
+		A7161DCF2700786F00ED129A /* PermissionViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewFactory.swift; sourceTree = "<group>"; };
+		A7161DD4270085B500ED129A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7161DD6270085CB00ED129A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7161DD7270086A000ED129A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A7161DDA2700873400ED129A /* PermissionLocalizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionLocalizables.swift; sourceTree = "<group>"; };
+		A7161DDC2700959800ED129A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A7AFF1F126FF02F00051A6F0 /* PermissionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PermissionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AFF1F426FF02F00051A6F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7AFF1F626FF02F00051A6F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +131,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7161DAD2700552800ED129A /* LabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DAE2700554700ED129A /* LabelPackComponent.swift */,
+				A7161DB02700556200ED129A /* LabelPackComponentData.swift */,
+			);
+			path = LabelPackComponent;
+			sourceTree = "<group>";
+		};
+		A7161DB22700598700ED129A /* PermissionMainComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DB32700599F00ED129A /* PermissionMainView.swift */,
+				A7161DB5270059E100ED129A /* PermissionMainViewData.swift */,
+			);
+			path = PermissionMainComponent;
+			sourceTree = "<group>";
+		};
+		A7161DB72700631400ED129A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DB92700635D00ED129A /* Permission */,
+				A7161DB82700632B00ED129A /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A7161DB82700632B00ED129A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A7AFF1F826FF02F00051A6F0 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A7161DB92700635D00ED129A /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DBA2700637D00ED129A /* PermissionViewController.swift */,
+				A7161DC22700741700ED129A /* PermissionViewModel.swift */,
+				A7161DC62700765F00ED129A /* PermissionViewBuilder.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		A7161DBC270064C100ED129A /* AssetHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DBD270064C800ED129A /* PermissionImages */,
+			);
+			path = AssetHelpers;
+			sourceTree = "<group>";
+		};
+		A7161DBD270064C800ED129A /* PermissionImages */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DBE270064D400ED129A /* PermissionImages.swift */,
+			);
+			path = PermissionImages;
+			sourceTree = "<group>";
+		};
+		A7161DC0270073D000ED129A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DCE2700786000ED129A /* PermissionViewFactory */,
+				A7161DCB270077EA00ED129A /* PhotosPermissionManager */,
+				A7161DC82700770A00ED129A /* CameraPermissionManager */,
+				A7161DC1270073D500ED129A /* PermissionProtocols */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A7161DC1270073D500ED129A /* PermissionProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DC4270074E300ED129A /* PermissionManagerProtocol.swift */,
+			);
+			path = PermissionProtocols;
+			sourceTree = "<group>";
+		};
+		A7161DC82700770A00ED129A /* CameraPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DC92700773F00ED129A /* CameraPermissionManager.swift */,
+			);
+			path = CameraPermissionManager;
+			sourceTree = "<group>";
+		};
+		A7161DCB270077EA00ED129A /* PhotosPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DCC270077F600ED129A /* PhotosPermissionManager.swift */,
+			);
+			path = PhotosPermissionManager;
+			sourceTree = "<group>";
+		};
+		A7161DCE2700786000ED129A /* PermissionViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DCF2700786F00ED129A /* PermissionViewFactory.swift */,
+			);
+			path = PermissionViewFactory;
+			sourceTree = "<group>";
+		};
+		A7161DD92700872300ED129A /* PermissionLocalizables */ = {
+			isa = PBXGroup;
+			children = (
+				A7161DDA2700873400ED129A /* PermissionLocalizables.swift */,
+			);
+			path = PermissionLocalizables;
+			sourceTree = "<group>";
+		};
 		A7AFF1E826FF02F00051A6F0 = {
 			isa = PBXGroup;
 			children = (
@@ -121,16 +266,18 @@
 		A7AFF1F326FF02F00051A6F0 /* PermissionProject */ = {
 			isa = PBXGroup;
 			children = (
-				A7AFF22C26FF18690051A6F0 /* Utils */,
-				A7AFF22926FF16360051A6F0 /* BaseComponent */,
+				A7161DC0270073D000ED129A /* Managers */,
+				A7161DB72700631400ED129A /* Scenes */,
+				A7AFF22926FF16360051A6F0 /* BaseComponents */,
 				A7AFF22526FF10220051A6F0 /* Components */,
+				A7AFF22C26FF18690051A6F0 /* Utilities */,
 				A7AFF1F426FF02F00051A6F0 /* AppDelegate.swift */,
 				A7AFF1F626FF02F00051A6F0 /* SceneDelegate.swift */,
-				A7AFF1F826FF02F00051A6F0 /* ViewController.swift */,
 				A7AFF1FA26FF02F00051A6F0 /* Main.storyboard */,
 				A7AFF1FD26FF02F00051A6F0 /* Assets.xcassets */,
 				A7AFF1FF26FF02F00051A6F0 /* LaunchScreen.storyboard */,
 				A7AFF20226FF02F00051A6F0 /* Info.plist */,
+				A7161DD5270085B500ED129A /* Localizable.strings */,
 			);
 			path = PermissionProject;
 			sourceTree = "<group>";
@@ -155,6 +302,8 @@
 		A7AFF22526FF10220051A6F0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A7161DB22700598700ED129A /* PermissionMainComponent */,
+				A7161DAD2700552800ED129A /* LabelPackComponent */,
 				A7AFF23E26FF42260051A6F0 /* ActionModuleComponent */,
 				A7AFF22626FF102B0051A6F0 /* ActionButtonComponent */,
 			);
@@ -172,23 +321,26 @@
 			path = ActionButtonComponent;
 			sourceTree = "<group>";
 		};
-		A7AFF22926FF16360051A6F0 /* BaseComponent */ = {
+		A7AFF22926FF16360051A6F0 /* BaseComponents */ = {
 			isa = PBXGroup;
 			children = (
 				A7AFF22F26FF18820051A6F0 /* GenericValueProtocol.swift */,
 				A7AFF22A26FF16430051A6F0 /* BaseView.swift */,
 				A7AFF23726FF233D0051A6F0 /* GenericBaseView.swift */,
+				A7161DDC2700959800ED129A /* BaseViewController.swift */,
 			);
-			path = BaseComponent;
+			path = BaseComponents;
 			sourceTree = "<group>";
 		};
-		A7AFF22C26FF18690051A6F0 /* Utils */ = {
+		A7AFF22C26FF18690051A6F0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A7161DD92700872300ED129A /* PermissionLocalizables */,
+				A7161DBC270064C100ED129A /* AssetHelpers */,
 				A7AFF23B26FF342E0051A6F0 /* Extensions */,
 				A7AFF23926FF33770051A6F0 /* FontManagers */,
 			);
-			path = Utils;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		A7AFF23926FF33770051A6F0 /* FontManagers */ = {
@@ -203,6 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				A7AFF23C26FF34480051A6F0 /* UIView+Extensions.swift */,
+				A7161DD7270086A000ED129A /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -232,6 +385,8 @@
 			dependencies = (
 			);
 			name = PermissionProject;
+			packageProductDependencies = (
+			);
 			productName = PermissionProject;
 			productReference = A7AFF1F126FF02F00051A6F0 /* PermissionProject.app */;
 			productType = "com.apple.product-type.application";
@@ -302,8 +457,11 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = A7AFF1E826FF02F00051A6F0;
+			packageReferences = (
+			);
 			productRefGroup = A7AFF1F226FF02F00051A6F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -321,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AFF20126FF02F00051A6F0 /* LaunchScreen.storyboard in Resources */,
+				A7161DD3270085B500ED129A /* Localizable.strings in Resources */,
 				A7AFF1FE26FF02F00051A6F0 /* Assets.xcassets in Resources */,
 				A7AFF1FC26FF02F00051A6F0 /* Main.storyboard in Resources */,
 			);
@@ -347,20 +506,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7161DC5270074E300ED129A /* PermissionManagerProtocol.swift in Sources */,
+				A7161DDB2700873400ED129A /* PermissionLocalizables.swift in Sources */,
 				A7AFF1F926FF02F00051A6F0 /* ViewController.swift in Sources */,
 				A7AFF23626FF20C90051A6F0 /* ActionButtonTheme.swift in Sources */,
 				A7AFF1F526FF02F00051A6F0 /* AppDelegate.swift in Sources */,
+				A7161DBB2700637D00ED129A /* PermissionViewController.swift in Sources */,
+				A7161DB12700556200ED129A /* LabelPackComponentData.swift in Sources */,
 				A7AFF24226FF428D0051A6F0 /* ActionModuleData.swift in Sources */,
+				A7161DC72700765F00ED129A /* PermissionViewBuilder.swift in Sources */,
+				A7161DC32700741700ED129A /* PermissionViewModel.swift in Sources */,
 				A7AFF23426FF20C20051A6F0 /* ActionButtonType.swift in Sources */,
+				A7161DCD270077F600ED129A /* PhotosPermissionManager.swift in Sources */,
 				A7AFF22B26FF16430051A6F0 /* BaseView.swift in Sources */,
+				A7161DD02700786F00ED129A /* PermissionViewFactory.swift in Sources */,
+				A7161DBF270064D400ED129A /* PermissionImages.swift in Sources */,
+				A7161DB6270059E100ED129A /* PermissionMainViewData.swift in Sources */,
+				A7161DAF2700554700ED129A /* LabelPackComponent.swift in Sources */,
 				A7AFF23826FF233D0051A6F0 /* GenericBaseView.swift in Sources */,
+				A7161DB42700599F00ED129A /* PermissionMainView.swift in Sources */,
 				A7AFF24026FF42340051A6F0 /* ActionModule.swift in Sources */,
+				A7161DD8270086A000ED129A /* String+Extension.swift in Sources */,
 				A7AFF23D26FF34480051A6F0 /* UIView+Extensions.swift in Sources */,
 				A7AFF1F726FF02F00051A6F0 /* SceneDelegate.swift in Sources */,
 				A7AFF22E26FF18780051A6F0 /* FontManager.swift in Sources */,
 				A7AFF23226FF1F160051A6F0 /* ActionButtonData.swift in Sources */,
+				A7161DCA2700773F00ED129A /* CameraPermissionManager.swift in Sources */,
 				A7AFF22826FF10540051A6F0 /* ActionButton.swift in Sources */,
 				A7AFF23026FF18820051A6F0 /* GenericValueProtocol.swift in Sources */,
+				A7161DDD2700959800ED129A /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +571,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A7161DD5270085B500ED129A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7161DD4270085B500ED129A /* en */,
+				A7161DD6270085CB00ED129A /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A7AFF1FA26FF02F00051A6F0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -481,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
