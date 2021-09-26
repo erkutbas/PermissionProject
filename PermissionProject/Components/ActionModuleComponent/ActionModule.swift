@@ -18,7 +18,7 @@ class ActionModule: GenericBaseView<ActionModuleData> {
     }()
     
     private lazy var mainStackView: UIStackView = {
-        let temp = UIStackView(arrangedSubviews: [positiveButton, negativeButton])
+        let temp = UIStackView(arrangedSubviews: [negativeButton, positiveButton])
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.alignment = .center
         temp.distribution = .fill
@@ -31,7 +31,7 @@ class ActionModule: GenericBaseView<ActionModuleData> {
         let temp = ActionButton()
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        temp.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        temp.widthAnchor.constraint(equalToConstant: 140).isActive = true
         return temp
     }()
     
@@ -39,15 +39,7 @@ class ActionModule: GenericBaseView<ActionModuleData> {
         let temp = ActionButton()
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        temp.widthAnchor.constraint(equalToConstant: 80).isActive = true
-        return temp
-    }()
-    
-    private lazy var positiveButton2: ActionButton = {
-        let temp = ActionButton()
-        temp.translatesAutoresizingMaskIntoConstraints = false
-        temp.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        temp.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        temp.widthAnchor.constraint(equalToConstant: 140).isActive = true
         return temp
     }()
     
@@ -71,6 +63,7 @@ class ActionModule: GenericBaseView<ActionModuleData> {
             mainStackView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -10),
             mainStackView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 10),
             mainStackView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -10),
+            
         ])
         
     }
@@ -80,7 +73,7 @@ class ActionModule: GenericBaseView<ActionModuleData> {
         guard let data = returnData() else { return }
         negativeButton.setData(by: data.negativeButtonData)
         positiveButton.setData(by: data.positiveButtonData)
-        positiveButton2.setData(by: data.positiveButtonData)
+
     }
     
 }
